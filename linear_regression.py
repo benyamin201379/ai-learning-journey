@@ -38,4 +38,8 @@ print("Prediction for 50:", model(test).item())
 
 # Tesor: 1) Wichtigste Datenstruktur in AI 2) kann Zahlen, Vektoren oder Matrizen speichern 3) Fast alles in AI basiert auf Tensors
 # Trainingsdaten: Model lernt muster aus den Daten 
+<<<<<<< HEAD:linear_regression.py
 # Weight: Wichtigkeit, Bias: Verschiebung, Epoch: Trainingsrunde   
+=======
+# Weight: Wichtigkeit, Bias: Verschiebung, Epoch: Trainingsrunde
+>>>>>>> aa50fd0 (Add nonlinear neural network):train.py
