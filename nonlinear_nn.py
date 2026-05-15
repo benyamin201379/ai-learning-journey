@@ -40,3 +40,4 @@ for epoch in range(5000):
 test = torch.tensor([[5.0]])
 
 print("Prediction for 5:", model(test).item())
+
