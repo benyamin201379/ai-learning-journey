@@ -62,6 +62,7 @@ The model predicts exam scores based on study hours.
 - Prediction on unseen data
 - Generalization
 
+---
 # Technologies
 
 - Python
