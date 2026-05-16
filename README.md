@@ -48,6 +48,20 @@ y = x^2
 
 ---
 
+# Day 03 - Student Score Predictor
+
+Today I built a small machine learning regression model.
+
+The model predicts exam scores based on study hours.
+
+## New Concepts
+
+- Regression
+- Real-world dataset
+- Inference
+- Prediction on unseen data
+- Generalization
+
 # Technologies
 
 - Python
