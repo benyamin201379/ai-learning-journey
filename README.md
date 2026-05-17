@@ -79,8 +79,8 @@ The neural network classifies handwritten digits from the MNIST dataset.
 - CrossEntropyLoss
 - Batch Training
 - Multi-class Classification
-=======
 
+---
 # Technologies
 
 - Python
