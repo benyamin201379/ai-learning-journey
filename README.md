@@ -8,13 +8,13 @@ This repository documents my daily progress in learning AI engineering with Pyth
 
 Today I trained my first neural network using PyTorch.
 
-The model learned the relationship:
+The model learns the relationship:
 
-```math
 y = 2x
-```
 
-## Concepts Learned
+---
+
+# Concepts Learned
 
 - Tensor
 - Neural Network
@@ -29,6 +29,7 @@ y = 2x
 
 ---
 
+<<<<<<< HEAD
 # Day 02 - Nonlinear Neural Network
 
 Today I built my first nonlinear neural network using PyTorch.
@@ -63,6 +64,8 @@ The model predicts exam scores based on study hours.
 - Generalization
 
 ---
+=======
+>>>>>>> 0f93f6b (Add MNIST image classifier)
 # Technologies
 
 - Python
@@ -71,7 +74,7 @@ The model predicts exam scores based on study hours.
 - Git
 - GitHub
 
----
+--- 
 
 # Project Goal
 
@@ -88,16 +91,10 @@ The goal of this repository is to document my journey toward becoming an AI Engi
 # Example Output
 
 Input:
-
-```text
 10
-```
 
 Prediction:
-
-```text
 ≈ 20
-```
 
 ---
 
@@ -107,23 +104,6 @@ Prediction:
 - CNNs
 - Transformers
 - LLMs
-- Computer Vision
-- Reinforcement Learning
-- AI Agents
 - AI for Engineering
 - Aerospace AI
 - Optimization Systems
-
----
-
-# Long-Term Vision
-
-My long-term goal is to combine:
-
-- Artificial Intelligence
-- Engineering
-- Aerospace Systems
-- Optimization
-- Scientific Computing
-
-to build advanced intelligent engineering systems.

@@ -30,13 +30,13 @@ loss_fn = torch.nn.MSELoss()
 # Optimizer
 optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
 
-# Training loop
-for epoch in range(3000):
+# Training loop 
+for epoch in range(5000):
 
     prediction = model(hours)
 
     loss = loss_fn(prediction, scores)
-
+    
     optimizer.zero_grad()
 
     loss.backward()
