@@ -29,7 +29,7 @@ y = 2x
 
 ---
 
-<<<<<<< HEAD
+
 # Day 02 - Nonlinear Neural Network
 
 Today I built my first nonlinear neural network using PyTorch.
@@ -80,7 +80,7 @@ The neural network classifies handwritten digits from the MNIST dataset.
 - Batch Training
 - Multi-class Classification
 =======
->>>>>>> 0f93f6b (Add MNIST image classifier)
+
 # Technologies
 
 - Python
