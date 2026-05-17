@@ -64,6 +64,21 @@ The model predicts exam scores based on study hours.
 - Generalization
 
 ---
+# Day 04 - MNIST Image Classifier
+
+Today I built my first computer vision AI model.
+
+The neural network classifies handwritten digits from the MNIST dataset.
+
+## New Concepts
+
+- Computer Vision
+- MNIST Dataset
+- Image Classification
+- Flatten Layer
+- CrossEntropyLoss
+- Batch Training
+- Multi-class Classification
 =======
 >>>>>>> 0f93f6b (Add MNIST image classifier)
 # Technologies
