@@ -2,7 +2,7 @@ import torch
 import torchvision
 import torchvision.transforms as transforms
 
-# Download dataset
+# Dataset
 transform = transforms.ToTensor()
 
 train_dataset = torchvision.datasets.MNIST(
@@ -18,17 +18,33 @@ train_loader = torch.utils.data.DataLoader(
     shuffle=True
 )
 
-# Neural network
+# CNN Model
 model = torch.nn.Sequential(
-    torch.nn.Flatten(),
-    torch.nn.Linear(28 * 28, 128),
+
+    # Convolution Layer
+    torch.nn.Conv2d(
+        in_channels=1,
+        out_channels=16,
+        kernel_size=3,
+        padding=1
+    ),
+
     torch.nn.ReLU(),
-    torch.nn.Linear(128, 10)
+
+    # Pooling
+    torch.nn.MaxPool2d(kernel_size=2),
+
+    # Flatten
+    torch.nn.Flatten(),
+
+    # Fully connected layer
+    torch.nn.Linear(16 * 14 * 14, 10)
 )
 
-# Loss and optimizer
+# Loss
 loss_fn = torch.nn.CrossEntropyLoss()
 
+# Optimizer
 optimizer = torch.optim.Adam(
     model.parameters(),
     lr=0.001
@@ -49,6 +65,6 @@ for epoch in range(3):
 
         optimizer.step()
 
-    print(f"Epoch {epoch+1} completed. Loss: {loss.item()}")
+    print(f"Epoch {epoch+1}: Loss = {loss.item()}")
 
-print("\nTraining finished!") 
+print("\nCNN Training finished!")
