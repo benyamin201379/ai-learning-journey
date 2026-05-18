@@ -81,6 +81,23 @@ The neural network classifies handwritten digits from the MNIST dataset.
 - Multi-class Classification
 
 ---
+# Day 05 - CNN for Image Classification
+
+Today I built my first Convolutional Neural Network (CNN).
+
+The CNN classifies handwritten digits using the MNIST dataset.
+
+## New Concepts
+
+- CNN
+- Conv2D
+- Feature Maps
+- MaxPooling
+- Kernels
+- Computer Vision
+- Deep Learning
+
+---
 # Technologies
 
 - Python
