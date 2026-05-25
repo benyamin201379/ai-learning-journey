@@ -1,161 +1,223 @@
 # AI Learning Journey 🚀
 
-This repository documents my daily progress in learning AI engineering with Python and PyTorch.
+A structured public journey documenting my progress toward becoming an AI Engineer through hands-on projects in Deep Learning, Computer Vision, and AI Systems using Python and PyTorch.
 
 ---
 
-# Day 01 - First Neural Network
+## About This Repository
 
-Today I trained my first neural network using PyTorch.
+This repository contains daily AI engineering projects built from scratch while learning:
+
+- Deep Learning
+- Neural Networks
+- Computer Vision
+- Transfer Learning
+- AI System Design
+- Real-world AI Applications
+
+The goal is not only to study theory, but to build practical AI systems consistently every day.
+
+---
+
+# Tech Stack
+
+- Python
+- PyTorch
+- Torchvision
+- NumPy
+- Matplotlib
+- PIL
+- VS Code
+- Git & GitHub
+
+---
+
+# Learning Timeline
+
+---
+
+## Day 01 — First Neural Network
+
+Built my first neural network using PyTorch.
 
 The model learned the relationship:
 
+```python
 y = 2x
+```
 
-## Concepts Learned
-- Tensor
-- Neural Network
-- Weight
-- Bias
-- Loss Function
+### Concepts Learned
+- Tensors
+- Neural Networks
+- Weights & Bias
+- Loss Functions
 - Gradient Descent
 - Backpropagation
 
+### File
+```text
+linear_regression.py
+```
+
 ---
 
-# Day 02 - Nonlinear Neural Network
+## Day 02 — Nonlinear Neural Network
 
-Today I built my first nonlinear neural network using PyTorch.
+Built a nonlinear neural network capable of learning:
 
-The model learned a nonlinear relationship:
-
+```python
 y = x²
+```
 
-## New Concepts
+### Concepts Learned
 - Hidden Layers
 - ReLU Activation
 - Adam Optimizer
 - Nonlinear Learning
 
+### File
+```text
+nonlinear_nn.py
+```
+
 ---
 
-# Day 03 - Student Score Predictor
+## Day 03 — Student Score Predictor
 
-Today I trained a neural network to predict exam scores based on study hours.
+Created a regression model that predicts exam scores from study hours.
 
-Example:
+### Example
 - Input: Study Hours
 - Output: Predicted Exam Score
 
-## New Concepts
-- Real-world regression problem
-- Feature and target values
-- Model prediction
-- Neural network training workflow
+### Concepts Learned
+- Regression Problems
+- Features & Targets
+- Model Predictions
+- Neural Network Workflow
+
+### File
+```text
+student_score_predictor.py
+```
 
 ---
 
-# Day 04 - MNIST Image Classifier
+## Day 04 — MNIST Image Classifier
 
-Today I built my first image classification model using the MNIST handwritten digits dataset.
+Built my first computer vision model using the MNIST handwritten digits dataset.
 
-The model classifies handwritten numbers from 0–9.
+The model classifies digits from **0–9**.
 
-## New Concepts
-- Computer Vision basics
-- Image datasets
+### Concepts Learned
+- Computer Vision Basics
+- Image Datasets
 - DataLoader
-- Flatten Layer
-- Multi-class classification
+- Flatten Layers
+- Multi-class Classification
 - CrossEntropyLoss
 
+### File
+```text
+mnist_classifier.py
+```
+
 ---
 
-# Day 05 - CNN on MNIST
+## Day 05 — CNN on MNIST
 
-Today I implemented my first Convolutional Neural Network (CNN) using PyTorch.
+Implemented my first Convolutional Neural Network (CNN).
 
-The CNN improved image classification performance on handwritten digits.
+The CNN improved handwritten digit classification performance.
 
-## New Concepts
+### Concepts Learned
 - Convolutional Layers
 - Max Pooling
 - Feature Extraction
 - CNN Architecture
-- Image Feature Learning
+- Spatial Feature Learning
+
+### File
+```text
+cnn_mnist.py
+```
 
 ---
 
-# Day 06 - CIFAR-10 CNN Classifier
+## Day 06 — CIFAR-10 CNN Classifier
 
-Today I trained a CNN on the CIFAR-10 dataset.
+Trained a CNN on the CIFAR-10 dataset for real-world colored image classification.
 
-The model learned to classify real-world colored images such as:
-- airplane
-- car
-- bird
-- cat
-- deer
-- dog
-- frog
-- horse
-- ship
-- truck
+### Classes
+- Airplane
+- Automobile
+- Bird
+- Cat
+- Deer
+- Dog
+- Frog
+- Horse
+- Ship
+- Truck
 
-I also visualized predictions and confidence scores using matplotlib.
+### Features
+- Prediction Visualization
+- Confidence Scores
+- Softmax Probabilities
 
-## New Concepts
-- RGB image classification
-- Multi-channel image tensors
-- Confidence scores
-- Softmax probabilities
-- Image visualization
-- CIFAR-10 dataset
+### Concepts Learned
+- RGB Image Classification
+- Multi-channel Tensors
+- Softmax
+- Image Visualization
+- Real-world Datasets
 
----
-
-# Technologies Used
-
-- Python
-- PyTorch
-- Torchvision
-- Matplotlib
-- VS Code
-- Git
-- GitHub
+### Files
+```text
+cifar10_classifier.py
+cifar10_viewer.py
+```
 
 ---
 
-# Project Goal
+## Day 07 — ResNet Image Classifier 🚀
 
-The goal of this repository is to document my journey toward becoming an AI Engineer through:
+Built a real-world image classifier using a pretrained **ResNet18** model from Torchvision.
 
-- Deep Learning
-- Computer Vision
-- Neural Networks
-- AI Systems
-- Engineering Projects
-- Real-world AI Applications
+The model predicts custom images using transfer learning.
 
----
-
-# Future Plans
-
+### Features
+- Pretrained ResNet18
+- Real Image Prediction
+- Confidence Scores
+- Image Visualization
 - Transfer Learning
-- ResNet
-- Transformers
-- LLMs
-- AI for Engineering
-- Aerospace AI
-- Reinforcement Learning
-- AI Agents
+
+### Example Prediction
+```text
+Prediction: golden retriever
+Confidence: 79.10%
+```
+
+### Concepts Learned
+- Transfer Learning
+- Pretrained Models
+- Image Preprocessing
+- Softmax Probabilities
+- PIL Image Loading
+- Real-world AI Inference
+
+### File
+```text
+resnet_classifier.py
+```
 
 ---
 
 # Repository Structure
 
 ```text
-day1-pytorch/
+ai-learning/
 │
 ├── linear_regression.py
 ├── nonlinear_nn.py
@@ -164,4 +226,60 @@ day1-pytorch/
 ├── cnn_mnist.py
 ├── cifar10_classifier.py
 ├── cifar10_viewer.py
+├── resnet_classifier.py
+├── test_image.png
 └── README.md
+```
+
+---
+
+# Current Focus
+
+I am currently focusing on:
+
+- Deep Learning Fundamentals
+- Computer Vision
+- CNN Architectures
+- Transfer Learning
+- AI Engineering Workflows
+- Production-ready AI Projects
+
+---
+
+# Future Roadmap
+
+## Computer Vision
+- Object Detection
+- YOLO
+- Segmentation
+- Real-time Webcam AI
+
+## Deep Learning
+- Advanced CNNs
+- Transformers
+- Attention Mechanisms
+- Diffusion Models
+
+## LLMs & AI Systems
+- Large Language Models
+- AI Agents
+- RAG Systems
+- AI Automation
+
+## Engineering AI
+- Aerospace AI
+- AI for Simulation
+- Scientific Machine Learning
+- Physics-informed Neural Networks
+
+---
+
+# Goal
+
+The purpose of this repository is to build a strong practical foundation in AI Engineering by creating projects consistently and documenting the entire learning process publicly.
+
+---
+
+# Connect
+
+More projects and advanced AI systems coming soon 🚀
