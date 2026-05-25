@@ -113,4 +113,4 @@ print("\nReal class:", classes[label])
 
 print("Predicted class:", classes[predicted_class])
 
-print(f"Confidence: {confidence*100:.2f}%")
+print(f"Confidence: {confidence*100:.2f}%") 
