@@ -25,6 +25,7 @@ The goal is not only to study theory, but to build practical AI systems consiste
 - PyTorch
 - Torchvision
 - NumPy
+- OpenCV
 - Matplotlib
 - PIL
 - VS Code
@@ -55,6 +56,7 @@ y = 2x
 - Backpropagation
 
 ### File
+
 ```text
 linear_regression.py
 ```
@@ -76,6 +78,7 @@ y = x²
 - Nonlinear Learning
 
 ### File
+
 ```text
 nonlinear_nn.py
 ```
@@ -97,6 +100,7 @@ Created a regression model that predicts exam scores from study hours.
 - Neural Network Workflow
 
 ### File
+
 ```text
 student_score_predictor.py
 ```
@@ -118,6 +122,7 @@ The model classifies digits from **0–9**.
 - CrossEntropyLoss
 
 ### File
+
 ```text
 mnist_classifier.py
 ```
@@ -138,6 +143,7 @@ The CNN improved handwritten digit classification performance.
 - Spatial Feature Learning
 
 ### File
+
 ```text
 cnn_mnist.py
 ```
@@ -164,6 +170,7 @@ Trained a CNN on the CIFAR-10 dataset for real-world colored image classificatio
 - Prediction Visualization
 - Confidence Scores
 - Softmax Probabilities
+- RGB Image Processing
 
 ### Concepts Learned
 - RGB Image Classification
@@ -173,6 +180,7 @@ Trained a CNN on the CIFAR-10 dataset for real-world colored image classificatio
 - Real-world Datasets
 
 ### Files
+
 ```text
 cifar10_classifier.py
 cifar10_viewer.py
@@ -194,6 +202,7 @@ The model predicts custom images using transfer learning.
 - Transfer Learning
 
 ### Example Prediction
+
 ```text
 Prediction: golden retriever
 Confidence: 79.10%
@@ -208,9 +217,71 @@ Confidence: 79.10%
 - Real-world AI Inference
 
 ### File
+
 ```text
 resnet_classifier.py
 ```
+
+---
+
+## Day 08 — Real-Time Webcam AI Detector 🎥🤖
+
+Built my first real-time AI webcam detector using PyTorch, OpenCV, and a pretrained ResNet18 model.
+
+The system analyzes webcam frames live and predicts objects in real time.
+
+### Features
+- Real-time webcam AI
+- Live object classification
+- Confidence scores
+- OpenCV integration
+- Real-time inference pipeline
+- Live prediction rendering
+
+### Concepts Learned
+- OpenCV webcam handling
+- Real-time AI inference
+- Frame preprocessing
+- Live computer vision systems
+- AI visualization
+- Video stream processing
+
+### Technologies
+- Python
+- PyTorch
+- Torchvision
+- OpenCV
+- Matplotlib
+
+### Example Output
+
+```text
+Prediction: suit
+Confidence: 19.8%
+```
+
+### File
+
+```text
+webcam_ai.py
+```
+
+### Run
+
+```bash
+python3 webcam_ai.py
+```
+
+### What This Project Does
+
+The AI system:
+- Opens the webcam
+- Captures live video frames
+- Processes frames with ResNet18
+- Predicts objects in real time
+- Displays confidence scores directly on screen
+
+This was my first step into real-time AI systems and live computer vision applications.
 
 ---
 
@@ -227,7 +298,9 @@ ai-learning/
 ├── cifar10_classifier.py
 ├── cifar10_viewer.py
 ├── resnet_classifier.py
+├── webcam_ai.py
 ├── test_image.png
+├── test_image.jpg
 └── README.md
 ```
 
@@ -243,6 +316,7 @@ I am currently focusing on:
 - Transfer Learning
 - AI Engineering Workflows
 - Production-ready AI Projects
+- Real-time AI Systems
 
 ---
 
@@ -252,7 +326,8 @@ I am currently focusing on:
 - Object Detection
 - YOLO
 - Segmentation
-- Real-time Webcam AI
+- Face Detection
+- Real-time AI Tracking
 
 ## Deep Learning
 - Advanced CNNs
@@ -278,6 +353,13 @@ I am currently focusing on:
 
 The purpose of this repository is to build a strong practical foundation in AI Engineering by creating projects consistently and documenting the entire learning process publicly.
 
+This repository represents my journey from beginner concepts to real-world AI systems.
+
+---
+
+# Connect
+
+More projects and advanced AI systems coming soon 🚀
 ---
 
 # Connect
