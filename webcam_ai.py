@@ -3,7 +3,7 @@ import torchvision.transforms as transforms
 from torchvision import models
 from PIL import Image
 
-import cv2
+import cv2 
 import matplotlib.pyplot as plt
 
 # Load pretrained ResNet18
@@ -18,6 +18,7 @@ from torchvision.models import ResNet18_Weights
 labels = ResNet18_Weights.DEFAULT.meta["categories"]
 
 # Transform image
+
 transform = transforms.Compose([
     transforms.ToPILImage(),
     transforms.Resize((224, 224)),
