@@ -4,7 +4,7 @@ A structured public journey documenting my progress toward becoming an AI Engine
 
 ---
 
-## About This Repository
+# About This Repository
 
 This repository contains daily AI engineering projects built from scratch while learning:
 
@@ -15,7 +15,7 @@ This repository contains daily AI engineering projects built from scratch while 
 - AI System Design
 - Real-world AI Applications
 
-The goal is not only to study theory, but to build practical AI systems consistently every day.
+The objective is not only to study AI theory but also to build practical AI systems consistently and document the entire learning process publicly.
 
 ---
 
@@ -24,12 +24,13 @@ The goal is not only to study theory, but to build practical AI systems consiste
 - Python
 - PyTorch
 - Torchvision
-- NumPy
 - OpenCV
+- NumPy
 - Matplotlib
 - PIL
 - VS Code
-- Git & GitHub
+- Git
+- GitHub
 
 ---
 
@@ -48,9 +49,10 @@ y = 2x
 ```
 
 ### Concepts Learned
+
 - Tensors
 - Neural Networks
-- Weights & Bias
+- Weights and Bias
 - Loss Functions
 - Gradient Descent
 - Backpropagation
@@ -72,10 +74,12 @@ y = x²
 ```
 
 ### Concepts Learned
+
 - Hidden Layers
 - ReLU Activation
 - Adam Optimizer
-- Nonlinear Learning
+- Nonlinear Function Approximation
+- Feature Learning
 
 ### File
 
@@ -90,14 +94,26 @@ nonlinear_nn.py
 Created a regression model that predicts exam scores from study hours.
 
 ### Example
-- Input: Study Hours
-- Output: Predicted Exam Score
+
+Input:
+
+```text
+Study Hours
+```
+
+Output:
+
+```text
+Predicted Exam Score
+```
 
 ### Concepts Learned
+
 - Regression Problems
-- Features & Targets
-- Model Predictions
+- Features and Targets
+- Dataset Preparation
 - Neural Network Workflow
+- Prediction Systems
 
 ### File
 
@@ -111,9 +127,14 @@ student_score_predictor.py
 
 Built my first computer vision model using the MNIST handwritten digits dataset.
 
-The model classifies digits from **0–9**.
+The model classifies handwritten digits from:
+
+```text
+0 - 9
+```
 
 ### Concepts Learned
+
 - Computer Vision Basics
 - Image Datasets
 - DataLoader
@@ -133,13 +154,14 @@ mnist_classifier.py
 
 Implemented my first Convolutional Neural Network (CNN).
 
-The CNN improved handwritten digit classification performance.
+The CNN improved image classification performance on handwritten digits.
 
 ### Concepts Learned
+
 - Convolutional Layers
 - Max Pooling
 - Feature Extraction
-- CNN Architecture
+- CNN Architectures
 - Spatial Feature Learning
 
 ### File
@@ -152,9 +174,10 @@ cnn_mnist.py
 
 ## Day 06 — CIFAR-10 CNN Classifier
 
-Trained a CNN on the CIFAR-10 dataset for real-world colored image classification.
+Trained a CNN on the CIFAR-10 dataset for real-world image classification.
 
 ### Classes
+
 - Airplane
 - Automobile
 - Bird
@@ -167,16 +190,18 @@ Trained a CNN on the CIFAR-10 dataset for real-world colored image classificatio
 - Truck
 
 ### Features
+
 - Prediction Visualization
 - Confidence Scores
 - Softmax Probabilities
-- RGB Image Processing
+- RGB Image Classification
 
 ### Concepts Learned
-- RGB Image Classification
-- Multi-channel Tensors
+
+- Multi-channel Image Tensors
+- RGB Images
 - Softmax
-- Image Visualization
+- Probability Distributions
 - Real-world Datasets
 
 ### Files
@@ -188,18 +213,19 @@ cifar10_viewer.py
 
 ---
 
-## Day 07 — ResNet Image Classifier 🚀
+## Day 07 — ResNet18 Image Classifier 🚀
 
-Built a real-world image classifier using a pretrained **ResNet18** model from Torchvision.
+Built a real-world image classifier using a pretrained ResNet18 model.
 
 The model predicts custom images using transfer learning.
 
 ### Features
+
 - Pretrained ResNet18
-- Real Image Prediction
+- Transfer Learning
 - Confidence Scores
 - Image Visualization
-- Transfer Learning
+- Real-world Predictions
 
 ### Example Prediction
 
@@ -209,12 +235,20 @@ Confidence: 79.10%
 ```
 
 ### Concepts Learned
+
 - Transfer Learning
 - Pretrained Models
 - Image Preprocessing
 - Softmax Probabilities
 - PIL Image Loading
-- Real-world AI Inference
+- AI Inference Pipelines
+
+### Technologies
+
+- PyTorch
+- Torchvision
+- PIL
+- Matplotlib
 
 ### File
 
@@ -224,41 +258,34 @@ resnet_classifier.py
 
 ---
 
-## Day 08 — Real-Time Webcam AI Detector 🎥🤖
+## Day 08 — AI Webcam Classifier 📷
 
-Built my first real-time AI webcam detector using PyTorch, OpenCV, and a pretrained ResNet18 model.
+Built a real-time webcam AI application using a pretrained ResNet18 model.
 
-The system analyzes webcam frames live and predicts objects in real time.
+The application continuously captures webcam frames and predicts image classes in real time.
 
 ### Features
-- Real-time webcam AI
-- Live object classification
-- Confidence scores
-- OpenCV integration
-- Real-time inference pipeline
-- Live prediction rendering
+
+- Live Webcam Feed
+- Real-time Predictions
+- Confidence Scores
+- Continuous AI Inference
+- OpenCV Integration
 
 ### Concepts Learned
-- OpenCV webcam handling
-- Real-time AI inference
-- Frame preprocessing
-- Live computer vision systems
-- AI visualization
-- Video stream processing
+
+- Real-time Inference
+- Webcam Processing
+- Frame-based Prediction
+- OpenCV Integration
+- AI Deployment Workflow
 
 ### Technologies
+
 - Python
+- OpenCV
 - PyTorch
 - Torchvision
-- OpenCV
-- Matplotlib
-
-### Example Output
-
-```text
-Prediction: suit
-Confidence: 19.8%
-```
 
 ### File
 
@@ -266,22 +293,77 @@ Confidence: 19.8%
 webcam_ai.py
 ```
 
-### Run
+---
 
-```bash
-python3 webcam_ai.py
+## Day 09 — YOLO Real-Time Object Detection 🎯
+
+Built a real-time object detection system using YOLOv8.
+
+The model detects multiple objects simultaneously and draws bounding boxes around them.
+
+### Features
+
+- Real-time Object Detection
+- Bounding Boxes
+- Multi-object Recognition
+- Webcam Integration
+- Live AI Inference
+
+### Concepts Learned
+
+- YOLO Architecture
+- Object Detection
+- Bounding Boxes
+- Multi-object Classification
+- Real-time Computer Vision
+
+### Technologies
+
+- Python
+- OpenCV
+- Ultralytics YOLO
+- PyTorch
+
+### File
+
+```text
+yolo_detector.py
 ```
 
-### What This Project Does
+---
 
-The AI system:
-- Opens the webcam
-- Captures live video frames
-- Processes frames with ResNet18
-- Predicts objects in real time
-- Displays confidence scores directly on screen
+## Day 10 — Real-Time Face Detection 👤
 
-This was my first step into real-time AI systems and live computer vision applications.
+Built a real-time face detection system using OpenCV.
+
+The application detects and tracks human faces from a live webcam feed.
+
+### Features
+
+- Real-time Face Detection
+- Face Tracking
+- Bounding Boxes
+- Multiple Face Support
+- Live Webcam Processing
+
+### Concepts Learned
+
+- Face Detection
+- Haar Cascades
+- Object Localization
+- Feature-based Detection
+- Real-time Computer Vision
+
+### Technologies
+
+- Python
+- OpenCV
+
+### File
+
+```text
+face_detector.py
+```
 
 ---
 
@@ -299,8 +381,10 @@ ai-learning/
 ├── cifar10_viewer.py
 ├── resnet_classifier.py
 ├── webcam_ai.py
+├── yolo_detector.py
+├── face_detector.py
 ├── test_image.png
-├── test_image.jpg
+├── yolov8n.pt
 └── README.md
 ```
 
@@ -308,60 +392,52 @@ ai-learning/
 
 # Current Focus
 
-I am currently focusing on:
+Current learning areas:
 
-- Deep Learning Fundamentals
+- Deep Learning
 - Computer Vision
 - CNN Architectures
 - Transfer Learning
+- Object Detection
+- Real-Time AI Systems
 - AI Engineering Workflows
-- Production-ready AI Projects
-- Real-time AI Systems
 
 ---
 
 # Future Roadmap
 
 ## Computer Vision
-- Object Detection
-- YOLO
-- Segmentation
-- Face Detection
-- Real-time AI Tracking
+
+- Face Recognition
+- Image Segmentation
+- Instance Segmentation
+- Pose Estimation
+- Tracking Systems
 
 ## Deep Learning
+
 - Advanced CNNs
 - Transformers
 - Attention Mechanisms
 - Diffusion Models
 
 ## LLMs & AI Systems
-- Large Language Models
+
+- AI Chatbots
+- Retrieval-Augmented Generation (RAG)
 - AI Agents
-- RAG Systems
-- AI Automation
+- Multi-Agent Systems
+- LLM Applications
 
 ## Engineering AI
+
 - Aerospace AI
-- AI for Simulation
 - Scientific Machine Learning
-- Physics-informed Neural Networks
+- Simulation-based AI
+- Physics-Informed Neural Networks
 
 ---
 
 # Goal
 
-The purpose of this repository is to build a strong practical foundation in AI Engineering by creating projects consistently and documenting the entire learning process publicly.
-
-This repository represents my journey from beginner concepts to real-world AI systems.
-
----
-
-# Connect
-
-More projects and advanced AI systems coming soon 🚀
----
-
-# Connect
-
-More projects and advanced AI systems coming soon 🚀
+The purpose of this repository is to build a strong practical foundation in AI Engineering by creating projects consistently, documenting progress publicly, and gradually moving from simple neural networks to production-ready AI systems.
