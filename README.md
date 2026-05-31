@@ -367,6 +367,29 @@ face_detector.py
 
 ---
 
+## Day 11 — Face Recognition AI 👤
+
+Built a real-time face recognition system using OpenCV and the face_recognition library.
+
+The system identifies whether a detected face matches a known reference image and labels the person accordingly.
+
+### Features
+
+- Real-time webcam face recognition
+- Known face identification
+- Unknown face detection
+- Face encoding generation
+- Face similarity matching
+- Live bounding boxes
+- Name labels on detected faces
+
+### Example
+
+Known Person:
+
+```text
+Benyamin
+
 # Repository Structure
 
 ```text
